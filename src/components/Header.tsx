@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { TrendingUp } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
