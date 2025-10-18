@@ -25,9 +25,11 @@ export const Header = () => {
         </nav>
         
         <div className="flex items-center gap-4">
-          <Button variant="ghost" size="sm">
-            Sign In
-          </Button>
+         <Link to="/login">
+           <Button variant="ghost" size="sm">
+             Sign In
+           </Button>
+         </Link>
           <Button size="sm" className="bg-primary hover:bg-primary/90 shadow-glow-primary">
             Get Started
           </Button>
